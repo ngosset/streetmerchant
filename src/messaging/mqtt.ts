@@ -91,22 +91,19 @@ function checkInsecureUsage(pass: string, address: string): boolean {
 
 function isClassANet(address: string): boolean {
   const classRegex =
-    /^(10\.(\d|[1-9]\d|[12][0-5]{2})\.(\d|[1-9]\d|[12][0-5]{2})\.(\d|[1-9]\d|[12][0-5]{2}))$/;
-
+    /^(10\.(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){2}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5]))$/;
   return Boolean(classRegex.exec(address));
 }
 
 function isClassBNet(address: string): boolean {
   const classRegex =
-    /^(172\.(1[6-9]|2\d|3[01])\.(\d|[1-9]\d|[12][0-5]{2})\.(\d|[1-9]\d|[12][0-5]{2}))$/;
-
+    /^(172\.(1[6-9]|2[0-9]|3[0-1])\.([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5]))$/;
   return Boolean(classRegex.exec(address));
 }
 
 function isClassCNet(address: string): boolean {
   const classRegex =
-    /^(192\.168\.(\d|[1-9]\d|[12][0-5]{2})\.(\d|[1-9]\d|[12][0-5]{2}))$/;
-
+    /^(192\.168\.([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5]))$/;
   return Boolean(classRegex.exec(address));
 }
 
