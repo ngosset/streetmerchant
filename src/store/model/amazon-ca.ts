@@ -250,6 +250,14 @@ export const AmazonCa: Store = {
       url: 'https://www.amazon.ca/dp/B0815Y8J9N',
     },
     {
+      brand: 'amd',
+      cartUrl:
+        'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B0DKFMSMYK&Quantity.1=1',
+      model: '9800x3d',
+      series: 'ryzen9800',
+      url: 'https://www.amazon.ca/dp/B0DKFMSMYK',
+    },
+    {
       brand: 'sony',
       cartUrl:
         'https://www.amazon.ca/gp/aws/cart/add.html?ASIN.1=B08GSC5D9G&Quantity.1=1',

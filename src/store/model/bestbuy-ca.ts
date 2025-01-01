@@ -229,6 +229,12 @@ export const BestBuyCa: Store = {
       series: '3080ti',
       url: 'https://www.bestbuy.ca/en-ca/product/nvidia-geforce-rtx-3080-ti-12gb-gddr6x-video-card/15530045',
     },
+    {
+      brand: 'amd',
+      model: '9800x3d',
+      series: 'ryzen9800',
+      url: 'https://www.bestbuy.ca/en-ca/product/amd-ryzen-7-9800x3d-8-core-5-2ghz-am5-processor/18658263'
+    }
   ],
   name: 'bestbuy-ca',
   waitUntil: 'domcontentloaded',

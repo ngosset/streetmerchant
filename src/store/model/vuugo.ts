@@ -45,7 +45,14 @@ export const Vuugo: Store = {
       model: '5950x',
       series: 'ryzen5950',
       url: 'https://www.vuugo.com/computer-hardware/computer-parts/cpu/amd-cpu-100-100000059WOF.html',
+    },    
+    {
+      brand: 'amd',
+      model: '9800x3d',
+      series: 'ryzen9800',
+      url: 'https://www.vuugo.com/product/amd-ryzen-7-100-100001084wof/',
     },
+   
     {
       brand: 'asrock',
       model: 'amd reference',

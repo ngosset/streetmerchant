@@ -500,6 +500,12 @@ export const CanadaComputers: Store = {
       url: 'https://www.canadacomputers.com/product_info.php?cPath=4_64&item_id=183427&language=en',
     },
     {
+      brand: 'amd',
+      model: '9800x3d',
+      series: 'ryzen9800',
+      url: 'https://www.canadacomputers.com/product_info.php?cPath=4_64&item_id=264908&language=en',
+    },
+    {
       brand: 'microsoft',
       model: 'xbox series x',
       series: 'xboxsx',

@@ -724,6 +724,13 @@ export const NeweggCa: Store = {
       url: 'https://www.newegg.ca/amd-ryzen-5-5600x/p/N82E16819113666',
     },
     {
+      brand: 'amd',
+      itemNumber: '19-113-877',
+      model: '9800x3d',
+      series: 'ryzen9800',
+      url: 'https://www.newegg.ca/amd-ryzen-7-9800x3d/p/N82E16819113877',
+    },
+    {
       brand: 'msi',
       model: 'amd reference',
       series: 'rx6800xt',

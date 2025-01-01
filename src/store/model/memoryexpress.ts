@@ -170,6 +170,11 @@ export const MemoryExpress: Store = {
       model: '5600x',
       series: 'ryzen5600',
       url: 'https://www.memoryexpress.com/Products/MX00114455',
+    },    {
+      brand: 'amd',
+      model: '9800x3d',
+      series: 'ryzen9800',
+      url: 'https://www.memoryexpress.com/Products/MX00131670',
     },
     {
       brand: 'gigabyte',
