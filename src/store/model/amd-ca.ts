@@ -4,52 +4,24 @@ export const AmdCa: Store = {
   currency: '$',
   labels: {
     inStock: {
-      container: '.btn-shopping-cart',
-      text: ['add to cart'],
+      container: '#form-action-addToCart',
+      text: ['Add to Cart'],
+    },    
+    outOfStock: {
+      container: '#main-content > div.container > div > div.productView > section.productView-details.product-data > div.stockAvailable > div > span > span.productAttributes-message-in > span',
+      text: ['Out of Stock'],
     },
     maxPrice: {
-      container: '.product-page-description h4',
+      container: '#main-content > div.container > div > div.productView > section.productView-details.product-data > div.productView-product > div.productView-price > div:nth-child(3) > span.price.price--withoutTax',
       euroFormat: false,
     },
   },
-  links: [
-    {
-      brand: 'test:brand',
-      model: 'test:model',
-      series: 'test:series',
-      url: 'https://www.amd.com/en/direct-buy/5458373400/ca',
-    },
+  links: [ 
     {
       brand: 'amd',
-      cartUrl:
-        'https://www.amd.com/en/direct-buy/5458373400/ca?add-to-cart=true',
-      model: 'amd reference',
-      series: 'rx6800',
-      url: 'https://www.amd.com/en/direct-buy/5458373400/ca',
-    },
-    {
-      brand: 'amd',
-      cartUrl:
-        'https://www.amd.com/en/direct-buy/5458372800/ca?add-to-cart=true',
-      model: 'amd reference',
-      series: 'rx6800xt',
-      url: 'https://www.amd.com/en/direct-buy/5458372800/ca',
-    },
-    {
-      brand: 'amd',
-      cartUrl:
-        'https://www.amd.com/en/direct-buy/5458372200/ca?add-to-cart=true',
-      model: 'amd reference',
-      series: 'rx6900xt',
-      url: 'https://www.amd.com/en/direct-buy/5458372200/ca',
-    },
-    {
-      brand: 'amd',
-      cartUrl:
-        'https://www.amd.com/en/direct-buy/5496921500/ca?add-to-cart=true',
-      model: 'amd reference',
-      series: 'rx6800xt',
-      url: 'https://www.amd.com/en/direct-buy/5496921500/ca',
+      model: '9800x3d',
+      series: 'ryzen9800',
+      url: 'https://shop-ca-en.amd.com/amd-ryzen-7-9800x3d-processor/', 
     },
   ],
   name: 'amd-ca',
