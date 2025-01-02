@@ -142,6 +142,7 @@ import {Saturn} from './saturn';
 import {SaveOnIt} from './saveonit';
 import {Scan} from './scan';
 import {Scorptec} from './scorptec';
+import {ShopRBC} from './shoprbc'
 import {ShopTo} from './shopto';
 import {Siabyte} from './siabyte';
 import {SmythsToys} from './smythstoys';
@@ -317,6 +318,7 @@ export const storeList = new Map([
   [SaveOnIt.name, SaveOnIt],
   [Scan.name, Scan],
   [Scorptec.name, Scorptec],
+  [ShopRBC.name, ShopRBC],
   [ShopTo.name, ShopTo],
   [Siabyte.name, Siabyte],
   [SmythsToys.name, SmythsToys],
